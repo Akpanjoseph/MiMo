@@ -7,7 +7,7 @@ export const NavBar = ()=>{
 
             <ul className='flex space-x-10 text-[18px] font-semibold'>
                 <li><NavLink to={'/'}  > YouTube Downloader</NavLink></li>
-                <li><NavLink to={'/hell'}> YouTube To Mp3</NavLink></li>
+                <li><NavLink to={'/music'}> YouTube To Mp3</NavLink></li>
             </ul>
         </div>
     )

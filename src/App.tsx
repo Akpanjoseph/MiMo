@@ -1,7 +1,8 @@
 import { NavBar } from "./Components/NavBar"
 import {Routes,Route} from 'react-router-dom'
-import { YouTubeDownloaderPage } from "./Components/YouTubeDownloaderPage"
+import { YouTubeDownloaderPage } from "./Components/YouTubeVidoeDownloaderPage"
 import { Footer } from "./Components/Footer"
+import { YoutubeVidoeToMp3Page } from "./Components/YoutubeVidoeToMp3Page"
 
 
 const App = ()=>{
@@ -12,6 +13,7 @@ const App = ()=>{
     
     <Routes>
       <Route path="/" element={<YouTubeDownloaderPage/>} />
+      <Route path="/music" element={<YoutubeVidoeToMp3Page/>} />
     </Routes>
     
     <Footer/>
