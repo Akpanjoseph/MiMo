@@ -5,7 +5,8 @@ export const YoutubeVidoeToMp3Page = ()=>{
            <div className="border-2 border-[#FF5B79] flex w-[80%] md:w-[40%] shadow-lg rounded-sm ">
            <input type="text" className="w-full outline-none p-2 "  placeholder="Paste YouTube Url Here.."/>
            </div>
-           <button className="bg-[#FF5B79] text-white py-1 md:py-2 px-2 rounded-sm capitalize">
+           <button className="bg-[#FF5B79] text-white py-1 md:py-2 px-2 rounded-sm capitalize flex items-center space-x-2">
+           <img src="download-icon2.svg" alt="" />
             <span>Convert to mp3</span>
            </button>
         </div>
