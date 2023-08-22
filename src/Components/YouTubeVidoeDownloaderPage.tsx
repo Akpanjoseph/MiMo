@@ -6,17 +6,17 @@ export const YouTubeDownloaderPage = () => {
      <div>
 
      <div className="flex  flex-col space-y-4 md:flex-row md:space-x-10 md:space-y-0">
+
       
-        <NavLink to={'playlist'} className="border-2 border-dashed border-[#6E41E2] py-14 px-8 flex flex-col justify-center items-center rounded-md">
-         <img src="playlist-lcon.svg" alt="" width={70} />
-          <p className="text-[#6E41E2] py-4">Download PlayList</p>
+     <NavLink to={'signleVideo'} className="border-2 border-dashed border-[#6E41E2] py-14 px-8  flex flex-col justify-center items-center rounded-md">
+          <img src="video-icon-active.svg" alt="" width={70} />
+          <p className="py-4 text-[#6E41E2]">Single Download</p>
         </NavLink>
 
-
-
-        <NavLink to={''} className="border-2 border-dashed border-[#6E41E2] py-14 px-8  flex flex-col justify-center items-center rounded-md">
-          <img src="single-video-icon.svg" alt="" width={70} />
-          <p className="py-4">Single Download</p>
+      
+        <NavLink to={'/playlistVideo'} className="border-2 border-dashed border-[#6E41E2] py-14 px-8 flex flex-col justify-center items-center rounded-md">
+         <img src="playlist-inactive-icon.svg" alt="" width={70} />
+          <p className=" py-4">Download PlayList</p>
         </NavLink>
 
       </div>

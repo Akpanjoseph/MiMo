@@ -3,6 +3,7 @@ import {Routes,Route} from 'react-router-dom'
 import { YouTubeDownloaderPage } from "./Components/YouTubeVidoeDownloaderPage"
 import { Footer } from "./Components/Footer"
 import { YoutubeVidoeToMp3Page } from "./Components/YoutubeVidoeToMp3Page"
+import { DownloadSingleVidoe } from "./Components/DownloadSingleVidoe"
 import { DownloadPlaylist } from "./Components/DownloadPlaylist"
 
 
@@ -15,7 +16,8 @@ const App = ()=>{
     <Routes>
       <Route path="/" element={<YouTubeDownloaderPage/>} />
       <Route path="/music" element={<YoutubeVidoeToMp3Page/>} />
-      <Route path="/playlist" element={<DownloadPlaylist/>} />
+      <Route path="/signleVideo" element={<DownloadSingleVidoe/>} />
+      <Route path="/playlistVideo" element={<DownloadPlaylist/>} />
     </Routes>
     
     <Footer/>
