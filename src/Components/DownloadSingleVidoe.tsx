@@ -14,12 +14,12 @@ export const DownloadSingleVidoe = () => {
         if (videId.length === 1) alert('Invaild link')
         else {
             // alert(videId[1])
-            const url = `https://youtube-media-downloader.p.rapidapi.com/v2/video/details?videoId=${videId[1]}`;
+            const url = `https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id=${videId[1]}`;
             const options = {
                 method: 'GET',
                 headers: {
                     'X-RapidAPI-Key': '4946a6b3dbmsh470bc27f05c6116p1fa079jsne42699169e20',
-                    'X-RapidAPI-Host': 'youtube-media-downloader.p.rapidapi.com'
+                    'X-RapidAPI-Host': 'ytstream-download-youtube-videos.p.rapidapi.com'
                 }
             };
 

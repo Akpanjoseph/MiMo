@@ -19,7 +19,7 @@ export const YoutubeVidoeToMp3Page = () => {
 
             {/* <Card data={data} /> */}
             <div className="flex justify-center items-center mt-[10%]">
-                <Card data={data} hide={''} color={'FF5B79'} />
+                {/* <Card data={data} hide={''} color={'FF5B79'} /> */}
                </div>
         </div>
     )
