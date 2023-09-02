@@ -8,13 +8,13 @@ export const YouTubeDownloaderPage = () => {
      <div className="flex  flex-col space-y-4 md:flex-row md:space-x-10 md:space-y-0">
 
       
-     <NavLink to={'signleVideo'} className="border-2 border-dashed border-[#6E41E2] py-14 px-8  flex flex-col justify-center items-center rounded-md">
+     <NavLink to={'signleVideo'} className="shadow-2xl  border-2 border-dashed border-[#6E41E2] py-14 px-8  flex flex-col justify-center items-center rounded-sm">
           <img src="video-icon-active.svg" alt="" width={70} />
           <p className="py-4 text-[#6E41E2]">Single Download</p>
         </NavLink>
 
       
-        <NavLink to={'/playlistVideo'} className="border-2 border-dashed border-[#6E41E2] py-14 px-8 flex flex-col justify-center items-center rounded-md">
+        <NavLink to={'/playlistVideo'} className="shadow-2xl border-2 border-dashed border-[#6E41E2] py-14 px-8 flex flex-col justify-center items-center rounded-sm">
          <img src="playlist-inactive-icon.svg" alt="" width={70} />
           <p className=" py-4">Download PlayList</p>
         </NavLink>

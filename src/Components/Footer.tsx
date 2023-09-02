@@ -9,8 +9,8 @@ export const Footer = ()=>{
             </div> */}
         </div>
 
-       <div className=" capitalize font-semibold bg-black text-white py-1">
-       <p className="text-center">copyright &copy;2023 syntax designer</p>
+       <div className=" capitalize text-sm font-semibold bg-slate-600 text-white py-1">
+       <p className="text-center">copyright &copy;2023 mimo downloader</p>
        </div>
        </div>
     )
