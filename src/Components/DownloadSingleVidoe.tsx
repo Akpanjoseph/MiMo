@@ -1,4 +1,5 @@
 //@ts-nocheck
+import axios from "axios";
 import { Card } from "./SingleMediaCard";
 import { useState } from 'react'
 // import data from '../JSON/video.json'
@@ -31,6 +32,7 @@ export const DownloadSingleVidoe = () => {
             } catch (error) {
                 console.error(error);
             }
+            // axios.post('/download/',{videoUrl})
         }
     }
 

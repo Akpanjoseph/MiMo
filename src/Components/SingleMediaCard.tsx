@@ -12,25 +12,7 @@ export const Card = ({ data, color }) => {
 
     const url = data.formats[2].url
 
-    // async function downloader(url: string, filename: string) {
-    //     return new Promise((resolve, reject) => {
-    //         axios({
-    //             method: 'get',
-    //             url,
-    //             headers: {"Access-Control-Allow-Origin": "*"},
-    //             responseType: 'stream',
-            
-    //         })
-    //             .then((response) => {
-    //                 console.log(response.data)
-    //                     .pipe(fs.createWriteStream(filename))
-    //                     .on('finish', (err: Error) => {
-    //                         if (err) reject(err);
-    //                         else resolve();
-    //                     });
-    //             });
-    //     });
-    // }
+
 
 
 
