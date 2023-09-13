@@ -1,10 +1,10 @@
 import { NavBar } from "./Components/NavBar"
 import {Routes,Route} from 'react-router-dom'
-import { YouTubeDownloaderPage } from "./Components/YouTubeVidoeDownloaderPage"
+// import { YouTubeDownloaderPage } from "./Components/YouTubeVidoeDownloaderPage"
 import { Footer } from "./Components/Footer"
 import { YoutubeVidoeToMp3Page } from "./Components/YoutubeVidoeToMp3Page"
-import { DownloadSingleVidoe } from "./Components/DownloadSingleVidoe"
-import { DownloadPlaylist } from "./Components/DownloadPlaylist"
+// import { DownloadSingleVidoe } from "./Components/DownloadSingleVidoe"
+// import { DownloadPlaylist } from "./Components/DownloadPlaylist"
 
 
 const App = ()=>{
@@ -14,10 +14,10 @@ const App = ()=>{
 
     
     <Routes>
-      <Route path="/" element={<YouTubeDownloaderPage/>} />
-      <Route path="/music" element={<YoutubeVidoeToMp3Page/>} />
-      <Route path="/signleVideo" element={<DownloadSingleVidoe/>} />
-      <Route path="/playlistVideo" element={<DownloadPlaylist/>} />
+      {/* <Route path="/" element={<YouTubeDownloaderPage/>} /> */}
+      <Route path="/" element={<YoutubeVidoeToMp3Page/>} />
+      {/* <Route path="/signleVideo" element={<DownloadSingleVidoe/>} /> 
+       <Route path="/playlistVideo" element={<DownloadPlaylist/>} /> */}
     </Routes>
     
     <Footer/>
