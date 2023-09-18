@@ -35,7 +35,7 @@ export const Card = ({ data, color }) => {
                         </select>
                     </div>
 
-            <a href={url} target='_blank' download={ data.title}>
+            <a href={url} target='__blank'  download={data.title}>
                     <button  className="bg-[#6E41E2] text-white py-1 md:py-2 px-2 rounded-sm capitalize flex items-center space-x-2" >
                         <img src="download-icon2.svg" alt="" />
                         <span>Download </span>
